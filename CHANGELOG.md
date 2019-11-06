@@ -1,4 +1,18 @@
 # idb-connector changelog
+## 1.2.3
+- [dbstmt] fix a memory leak issue (#90)
+- [dbstmt] use more meaningful variable names in code
+
+## 1.2.2
+- [dbstmt] get accurate CLOB data length (#78)
+- [dbstmt] finalize buffer of binary data (#86)
+
+## 1.2.1
+- [dbstmt] support returning numeric SQL data (#77)
+- [dbstmt] support binding to CLOB for long text (#78)
+- [dbstmt] fix the truncated issue for data type REAL (#64)
+- [doc] add SET PATH details (#74)
+- [doc] stmtError() conflicts with dbconn.debug(true) (#81)
 
 ## 1.2.0
 - Use N-API versions for build (one binary for all Node.js)
